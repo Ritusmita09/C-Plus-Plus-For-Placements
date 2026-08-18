@@ -1,0 +1,14 @@
+{
+  "terminal.integrated.env.windows": {
+    "PATH": "C:\\MinGW\\bin;${env:PATH}"
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.showRunIconInEditorTitleMenu": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.fileDirectoryAsCwd": true,
+  "C_Cpp.debugShortcut": false,
+  "code-runner.executorMap": {
+    "cpp": "cmd /c \"cd /d $dir && g++ -std=c++17 \"\"$fileName\"\" -o \"\"$fileNameWithoutExt.exe\"\" && \"\"$fileNameWithoutExt.exe\"\"\""
+  }
+}
