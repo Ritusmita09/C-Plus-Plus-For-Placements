@@ -16,7 +16,3 @@ int main(){
         cout<<"sorry!you failed";
     }
 }
-
-
-
-
