@@ -6,7 +6,7 @@ int main(){
     int a , b;
     cout<<"Enter your number:";cin>>a;
     cout<<"Enter your number:";cin>>b;
-    cout<<"A="<<a <<"\n"<< "B="<<b <<"\n"<< "sum is="<<a+b;
+    cout<<"A="<<a <<"\n"<< "B="<<b <<"\n"<< "sum is[A+B]="<<a+b;
 } 
 
 // #include<stdio.h>
