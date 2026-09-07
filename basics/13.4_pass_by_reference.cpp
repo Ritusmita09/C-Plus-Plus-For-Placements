@@ -8,9 +8,23 @@ void doNothing(string &s){ // & -- it takes the address of the original
     s[s.size() - 1] = 'r'; //s.size()=length and s.size() - 1 -- to change the LAST character
     cout<<"string is: "<<s<<"\n";
 }
+
+void doSomething(int &num){
+    cout<<"number is: "<<num<<"\n";
+    num += 5;
+    cout<<"now number is: "<<num<<"\n";
+    num += 5;
+    cout<<"now number is: "<<num<<"\n";
+}
+
+
 int main(){
     string s;
+    int num;
     cout<<"Enter your name: ";cin>>s;
+    cout<<"Enter the number: ";cin>>num;
     doNothing(s);
-    cout<<s<<"\n"; //output -- titr
+    doSomething(num);
+    cout<<s<<"\n";
+    cout<<num<<"\n";
 }
