@@ -17,7 +17,6 @@ void doSomething(int &num){
     cout<<"now number is: "<<num<<"\n";
 }
 
-
 int main(){
     string s;
     int num;
