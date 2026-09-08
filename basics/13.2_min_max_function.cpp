@@ -9,7 +9,6 @@ else{
     return num2;
 }
 }
-
 int main(){
     int num1, num2;
     cout<<"Enter two numbers: \n";cin>>num1>>num2;
