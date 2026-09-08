@@ -5,8 +5,6 @@ void doSomething(int arr[], int n){ // array always goes with reference--it chan
     arr[0] += 100;
     cout<<"Value inside function: "<<arr[0]<<"\n";
 }
-
-
 int main(){
     int n = 5;
     int arr[n];
